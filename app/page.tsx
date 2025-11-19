@@ -151,11 +151,11 @@ export default function App() {
         <div className="flex flex-col md:flex-row min-h-[300px] relative">
 
           {/* Vertical Separator Line (Only visible on desktop) */}
-          <div className="hidden md:block absolute top-0 bottom-0 left-1/2 w-px bg-gray-200 transform -translate-x-1/2" />
+          <div className="hidden md:block absolute top-0 bottom-0 left-1/2 w-px bg-black transform -translate-x-1/2" />
 
           {/* 1. Input Area */}
           <div className="md:w-1/2 p-2 md:pr-6 mb-6 md:mb-0">
-            <h2 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4">
+            <h2 className="text-xl md:text-2xl font-semibold text-black mb-4">
               Enter text
             </h2>
             
@@ -178,7 +178,7 @@ export default function App() {
 
             {/* Textarea */}
             <textarea
-              className="w-full h-48 mt-4 p-4 text-base md:text-lg border-2 border-gray-100 rounded-lg focus:outline-none focus:border-green-400 resize-none transition duration-150 shadow-sm"
+              className="w-full h-48 mt-4 p-4 text-base md:text-lg border-2 border-black rounded-lg focus:outline-none focus:border-green-400 resize-none transition duration-150 shadow-sm"
               placeholder={sourcePlaceholder}
               value={text}
               onChange={handleTextChange}
